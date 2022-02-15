@@ -16,3 +16,7 @@ html {
 .valign-wrapper {
     flex-wrap: wrap;
 }
+
+.page-footer {
+    padding-top: 0;
+}
