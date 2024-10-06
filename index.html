@@ -1,138 +1,349 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>植田史彰のポートフォリオ</title>
+    <meta name="keywords" content="植田史彰のポートフォリオ" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3852a2dea7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>植田史彰のポートフォリオ</title>
-  <meta name="keywords" content="植田史彰のポートフォリオ">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <!--[if lt IE 9]>
- <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
- <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
- <![endif]-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
+  <body>
+    <nav class="">
+      <header class="d-flex flex-wrap py-5 mb-4 border-bottom">
+        <h1 class="container text-center">植田史彰のポートフォリオ</h1>
+      </header>
+    </nav>
 
-<body>
-  <nav class="teal lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Ueda Fumiaki's Portfolio</a>
-    </div>
-  </nav>
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Works Section   -->
-      <div class="row">
-
-        <div class="work-block section">
-          <h3 class="row teal-text center">Webサイト制作</h3>
-          <div class="row valign-wrapper">
-            <div class="work-img col s12 m6 l4">
-              <img src="img/lp.png" alt="Webページのサムネイル" class="responsive-img materialboxed">
+    <div class="container">
+      <!-- 作品 -->
+      <section class="row my-5">
+        <div class="col">
+          <div class="row gx-5">
+            <div class="col-12 col-md-6">
+              <h2 class="mb-5">楽譜管理用WEBアプリ制作</h2>
+              <a href="https://umkz.net/" target="_blank">
+                <figure class="figure">
+                  <img
+                    src="img/scorelist.png"
+                    alt="譜面リスト作成ツールのサムネイル"
+                    class="figure-img img-fluid rounded"
+                  />
+                  <figcaption class="figure-caption text-center">
+                    譜面リスト作成ツール
+                  </figcaption>
+                </figure>
+              </a>
             </div>
-            <div class="col s12 m6 l8">
-              <h5>詳細</h5>
-              <p>
-                プログラミングスクールの課題として制作したLPサイトのサンプルです。
-              </p>
-              <h5>開発の経緯・ストーリー</h5>
-              <p>
-                HTMLやCSS自体は小学生くらいの頃から触れていたものではありましたが、改めて本格的に学びLPページがしっかりと制作物を作ることが出来るようにしようということで、プログラミングスクールで学び身につけたものを形にしたものです。
-              </p>
-              <p>
-                今日ではWordpressで便利に簡単にHPを作ることが出来ますが、ブログ形式ではないLPでは未だに使われている技術だと言うことを学び、実践しました。細かい設定をHTMLやCSS、JQueryなどを用いて調整する力を養うことが出来たと感じています。
-              </p>
-              <h5>使用した技術</h5>
-              <p>HTML/CSS, JavaScript(JQuery)</p>
-              <div class="row right">
-                <a href="https://umikazeyu.github.io/bio-shampoo-sample/" class="waves-effect waves-light btn" target="_blank"><i class="material-icons left">open_in_browser</i>open</a>
+
+            <div class="col-12 col-md-6">
+              <div class="mb-4 text-end">
+                <a
+                  href="https://umkz.net/"
+                  class="btn btn-primary mb-2 ms-1"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+                  サイトを開く
+                </a>
+                <a
+                  href="https://github.com/FumiakiUeda/score-list-ui.git"
+                  class="btn btn-primary mb-2 ms-1"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github me-1"></i>
+                  フロントエンド
+                </a>
+                <a
+                  href="https://github.com/FumiakiUeda/score-list-api.git"
+                  class="btn btn-primary mb-2 ms-1"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github me-1"></i>
+                  バックエンド
+                </a>
               </div>
+
+              <h3 class="mb-4">デモユーザー情報</h3>
+              <p>※毎日データはリセットされるためご自由にお試しください</p>
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">メールアドレス</th>
+                    <th scope="col">パスワード</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>demo@mail.umkz.net</td>
+                    <td>demouser</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h3 class="my-4">概要</h3>
+              <p>
+                自分の所持している吹奏楽譜を管理するためのツールです。吹奏楽をやっていると楽譜の保管が大変で、よく特定のパートの楽譜だけ紛失したりするので、どの楽譜を所持していて何を紛失しているのか管理をするために作成しました。
+              </p>
+              <p>
+                フロントエンドとバックエンドでそれぞれフレームワークを分けて使用しています。
+              </p>
+              <p>
+                PHPやLaravelは元々使用したことがありましたが、フロントエンドのフレームワークを使用する機会がなかったためNext.jsを0から学びながら制作しました。
+              </p>
+
+              <h3 class="my-4">技術スタック</h3>
+              <ul>
+                <li>HTML / CSS</li>
+                <ul>
+                  <li>TailwindCSS</li>
+                </ul>
+                <li>Javascript (Node.js)</li>
+                <ul>
+                  <li>Next.js / React</li>
+                </ul>
+                <li>PHP</li>
+                <ul>
+                  <li>Laravel</li>
+                </ul>
+                <li>VPS (Ubuntu)</li>
+                <ul>
+                  <li>Apache</li>
+                </ul>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="divider"></div>
+      </section>
+      <hr />
 
-        <div class="work-block section">
-          <h3 class="row teal-text center">楽譜リスト作成ツール</h3>
-          <div class="row valign-wrapper">
-            <div class="work-img col s12 m6 l4">
-              <img src="img/scorelist.png" alt="数字ブロックゲームのサムネイル" class="responsive-img materialboxed">
+      <!-- 作品 -->
+      <section class="row my-5">
+        <div class="col">
+          <div class="row gx-5">
+            <div class="col-12 col-md-6">
+              <h2 class="mb-5">LAPP環境Docker構築</h2>
+              <a
+                href="https://github.com/FumiakiUeda/docker-lapp.git/"
+                target="_blank"
+              >
+                <figure class="figure">
+                  <img
+                    src="img/docker_lapp.png"
+                    alt="LAPP環境Dockerのサムネイル"
+                    class="figure-img img-fluid rounded"
+                  />
+                  <figcaption class="figure-caption text-center">
+                    Dockerでの実行画面
+                  </figcaption>
+                </figure>
+              </a>
             </div>
-            <div class="col s12 m6 l8">
-              <h5>詳細</h5>
-              <p>
-                項目を順に入力することにより吹奏楽の楽譜のリストを作成する、簡単なツールです。
-              </p>
-              <h5>開発の経緯・ストーリー</h5>
-              <p>
-                C#を学んだ後、汎用性が高いと聞いたことがあったJavaScriptを学習し、その成果を試すために簡単なツールを制作しました。秀作として作ったため、機能が非常に少ないものとなっていますが、JavaScriptを用いてHTMLを操作したり、ファイルとして保存したりなど作りながら学ぶことも多くありました。
-                まだまだ使いづらいものなので、Web上にデータを保存したり、データをインポートしたり、表を入れ替えたり等の機能を付けていきたいです。
-              </p>
-              <p>
-                まだまだ使いづらいものなので、Web上にデータを保存したり、データをインポートしたり、表を入れ替えたり等の機能を付けていきたいです。
-              </p>
-              <h5>使用した技術</h5>
-              <p>HTML/CSS, JavaScript</p>
-              <div class="row right">
-                <a href="https://umikazeyu.github.io/ScoreList/" class="waves-effect waves-light btn" target="_blank"><i class="material-icons left">open_in_browser</i>open</a>
+
+            <div class="col-12 col-md-6">
+              <div class="mb-4 text-end">
+                <a
+                  href="https://github.com/FumiakiUeda/docker-lapp.git"
+                  class="btn btn-primary mb-2 ms-1"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github me-1"></i>
+                  リポジトリ
+                </a>
               </div>
+
+              <h3 class="mb-4">概要</h3>
+              <p>
+                会社のメイン商材の本番環境がAlmaLinuxだったのですが、開発環境がWindowsのため細かい処理や動作に違いがあり、開発に支障をきたしていたため、環境を共有しやすいDocker開発環境を作成しました。
+              </p>
+              <p>
+                Apache + PHP +
+                PostgreSQLの汎用的な開発に使用でき、それぞれがコンテナに分かれているためバージョンのアップ・ダウンも容易に出来るようにしています。
+              </p>
+
+              <h3 class="my-4">技術スタック</h3>
+              <ul>
+                <li>Docker</li>
+                <ul>
+                  <li>Dockerfile</li>
+                  <li>Docker Compose</li>
+                  <li>WSL</li>
+                </ul>
+                <li>OS</li>
+                <ul>
+                  <li>AlmaLinux</li>
+                  <li>Alpine Linux</li>
+                </ul>
+                <li>コンテナ</li>
+                <ul>
+                  <li>PHP(FastCGI)</li>
+                  <li>Apache</li>
+                  <li>PostgreSQL</li>
+                  <li>Mailpit</li>
+                  <li>FTP(S)</li>
+                  <li>SFTP</li>
+                </ul>
+              </ul>
             </div>
           </div>
         </div>
+      </section>
+      <hr />
 
-        <div class="divider"></div>
-
-        <div class="work-block section">
-          <h3 class="row teal-text center">数字ブロックゲーム</h3>
-          <div class="row valign-wrapper">
-            <div class="work-img col s12 m6 l4">
-              <img src="img/numberusagi.png" alt="数字ブロックゲームのサムネイル" class="responsive-img materialboxed">
+      <!-- 作品 -->
+      <section class="row my-5">
+        <div class="col">
+          <div class="row gx-5">
+            <div class="col-12 col-md-6">
+              <h2 class="mb-5">情報サイト制作</h2>
+              <a href="https://movie.sasaru.media/" target="_blank">
+                <figure class="figure">
+                  <img
+                    src="img/sasaru_movie.png"
+                    alt="SASARU movieのサムネイル"
+                    class="figure-img img-fluid rounded"
+                  />
+                  <figcaption class="figure-caption text-center">
+                    SASARU movie HP
+                  </figcaption>
+                </figure>
+              </a>
             </div>
-            <div class="col s12 m6 l8">
-              <h5>詳細</h5>
-              <p>
-                うさぎを操作して番号が書かれたブロックを1から10まで順に踏んでいくゲームです。
-              </p>
-              <h5>開発の経緯・ストーリー</h5>
-              <p>
-                人生で初めてプログラミングで作品として完成まで至ったものです。簡単な操作で単純な遊びができるゲームを目指して勉強と趣味を兼ねて制作しました。わかりやすいUIなども意識し、なるべくとっつきやすいゲームを意識しました。
-              </p>
-              <p>
-                ランダム生成したブロックに対する正解不正解の判定やタッチ操作の実装などではかなり苦戦し、半ば挫折しかけましたが、なんとかじっくりと考えたり調べたりて少しずつ完成に近づけていきました。
-              </p>
-              <h5>使用した技術</h5>
-              <p>Unity／C#</p>
-              <div class="row right">
-                <a href="https://umikazeyu.github.io/NumberUsagiWebGLBuild/" class="waves-effect waves-light btn" target="_blank"><i class="material-icons left">sports_esports</i>play</a>
+
+            <div class="col-12 col-md-6">
+              <div class="mb-4 text-end">
+                <a
+                  href="https://movie.sasaru.media/"
+                  class="btn btn-primary mb-2 ms-1"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+                  サイトを開く
+                </a>
               </div>
+
+              <h3 class="mb-4">概要</h3>
+              <p>
+                メディア関係のお客様から、既存のページから派生した映画記事のみを扱うサイトを開設したいと要望があったため、業務のプロジェクトとして開発を担当しました。フロントのWEBサイトとサイトを管理するCMSの開発に携わりました。
+              </p>
+              <p>
+                （CMS側は社外秘のためお見せすることが出来ません。申し訳ありません。）
+              </p>
+
+              <h3 class="my-4">技術スタック</h3>
+              <ul>
+                <li>HTML / CSS</li>
+                <li>JavaScript</li>
+                <ul>
+                  <li>JQuery</li>
+                </ul>
+                <li>PHP</li>
+                <ul>
+                  <li>Smarty</li>
+                </ul>
+              </ul>
             </div>
           </div>
         </div>
+      </section>
+      <hr />
 
-      </div>
-      <br><br>
+      <!-- 作品 -->
+      <section class="row my-5">
+        <div class="col">
+          <div class="row gx-5">
+            <div class="col-12 col-md-6">
+              <h2 class="mb-5">ホームページ制作</h2>
+              <a href="https://knee-festa.vercel.app//" target="_blank">
+                <figure class="figure">
+                  <img
+                    src="img/knee_festa.png"
+                    alt="同人グループHPのサムネイル"
+                    class="figure-img img-fluid rounded"
+                  />
+                  <figcaption class="figure-caption text-center">
+                    「ひざ祭り」グループHP
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <div class="mb-4 text-end">
+                <a
+                  href="https://knee-festa.vercel.app//"
+                  class="btn btn-primary mb-2 ms-1"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+                  サイトを開く
+                </a>
+                <a
+                  href="https://github.com/FumiakiUeda/knee-festa.git"
+                  class="btn btn-primary mb-2 ms-1"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github me-1"></i>
+                  リポジトリ
+                </a>
+              </div>
+
+              <h3 class="mb-4">概要</h3>
+              <p>
+                Next.jsの学習のため友人の所属する同人グループのHPを制作しました。
+              </p>
+              <p>
+                コンテンツ内容やグループ名等は少々独特ですが、掲載したい内容がシンプルかつ静的な物だったため、SSGを使用し高速なHPを実現しました。
+              </p>
+
+              <h3 class="my-4">技術スタック</h3>
+              <ul>
+                <li>HTML / CSS</li>
+                <ul>
+                  <li>TailwindCSS</li>
+                </ul>
+                <li>Javascript (Node.js)</li>
+                <ul>
+                  <li>Next.js / React</li>
+                </ul>
+                <li>Vercel</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
     </div>
-  </div>
 
-  <footer class="page-footer teal">
-    <div class="footer-copyright">
-      <div class="container">
-        &copy; Copyright 2021 Ueda Fumiaki All Rights Reserved. Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
+    <footer class="py-3 my-4">
+      <p class="text-center text-body-secondary">
+        © Copyright 2024 Fumiaki Ueda All Rights Reserved.
+      </p>
+    </footer>
 
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/init.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
